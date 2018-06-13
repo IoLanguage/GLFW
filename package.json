@@ -1,0 +1,16 @@
+{
+  "name":         "GLFW",
+  "version":      "0.1",
+  "description":  "Io bindings for GLFW.",
+  "author":       "Joel de Vahl",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["GLFW"],
+  "dependencies": {
+    "libs":     ["glfw"],
+    "headers":  ["GL/glfw.h"],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/OpenGL.git"],
+    "frameworks": ["AGL"]
+  }
+}
